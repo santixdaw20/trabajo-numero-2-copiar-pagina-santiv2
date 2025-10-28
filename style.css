@@ -164,19 +164,19 @@ body {
 
 
 .botoncard1 {
-  background-color: #e0efff;
+  background-color: #ffffff;
   color: #2583e6;
   font-weight: bold;
   border: none;
   border-radius: 8px;
   padding: 8px 20px;
-  font-size: 13px;
+  font-size: 18px;
   cursor: pointer;
   transition: background-color 0.1s ease;
 }
 
 .botoncard1:hover {
-  background-color: #cde2fc;
+  background-color: #ffffff;
 }
 
 .card2 {
@@ -226,19 +226,19 @@ body {
 }
 
 .botoncard2 {
-  background-color: #e0efff;
+  background-color: #ffffff;
   color: #2583e6;
   font-weight: bold;
   border: none;
   border-radius: 8px;
   padding: 8px 20px;
-  font-size: 13px;
+  font-size: 18px;
   cursor: pointer;
   transition: background-color 0.1s ease;
 }
 
 .botoncard2:hover {
-  background-color: #cde2fc;
+  background-color: #ffffff;
 }
 
 .card3 {
