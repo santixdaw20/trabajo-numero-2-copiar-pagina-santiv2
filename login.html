@@ -1,26 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Login Simples</title>
-  <link rel="stylesheet" href="estilo" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pantalla de Login</title>
+  <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-  <div class="login-container">
-    <h2>Login</h2>
-    <form id="loginForm">
-      <label for="username">Usuário</label>
-      <input type="text" id="username" placeholder="Digite seu usuário" required>
+  <div class="login-modal">
+    <button class="close-btn">✕</button>
 
-      <label for="password">Senha</label>
-      <input type="password" id="password" placeholder="Digite sua senha" required>
+    <button class="login-btn google">
+      <img src="https://www.svgrepo.com/show/355037/google.svg" alt="Google">
+      Continuar con Google
+    </button>
 
-      <button type="submit">Entrar</button>
-      <p id="message"></p>
-    </form>
+    <button class="login-btn apple">
+      <img src="https://www.svgrepo.com/show/452210/apple.svg" alt="Apple">
+      Continuar con Apple
+    </button>
+
+    <button class="login-btn microsoft">
+      <img src="https://www.svgrepo.com/show/452045/microsoft.svg" alt="Microsoft">
+      Continuar con Microsoft
+    </button>
+
+    <button class="login-btn phone">
+      <img src="https://www.svgrepo.com/show/512317/phone.svg" alt="Teléfono">
+      Continuar con el teléfono
+    </button>
+
+    <div class="divider">
+      <span>o</span>
+    </div>
+
+    <input type="email" placeholder="Dirección de correo electrónico" class="input-field">
+    <button class="continue-btn">Continuar</button>
   </div>
-
-  <script src="script.js"></script>
 </body>
 </html>
