@@ -16,7 +16,7 @@ body {
 }
 
 .barra {
-  background-color: #a59b40;
+  background-color: #FFE600;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -130,7 +130,7 @@ body {
   font-size: 16px;
   border-radius: 8px;
   width: 448px;
-  height: 393px;
+  height: px;
 
 }
 
