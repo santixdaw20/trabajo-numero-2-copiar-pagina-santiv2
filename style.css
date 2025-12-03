@@ -187,6 +187,12 @@ body {
 }
 
 
+.contenedor-cards {
+  display: flex;
+  flex-wrap: wrap;   /* Para que bajen si no entra el ancho */
+  gap: 20px;         /* Separación entre cards */
+  justify-content: center;
+}
 
 @media (max-width: 620px) {
   .barra {
