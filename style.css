@@ -238,8 +238,8 @@ body {
   }
 }
 
-.container .card {
-  width: 140px;
+.card {
+  max-width: 140px !important;  /* fuerza ancho máximo */
   border-radius: 10px;
   overflow: hidden;
   background-color: #fff !important;
@@ -247,9 +247,9 @@ body {
   margin: 0 auto;
 }
 
-.container .card img {
+.card img {
   width: 100%;
-  height: 100px;
+  height: 100px !important;     /* altura más pequeña */
   object-fit: cover;
 }
 
@@ -268,18 +268,12 @@ body {
   width: 100%;
 }
 
-/* columnas ajustadas */
-.col-6, .col-md-4, .col-lg-3 {
-  flex: 0 0 auto;
-  width: auto;            /* 👈 evitar que se hagan gigantes */
-  padding: 5px !important;
-}
 
-/* permitir que todas se alineen horizontalmente */
+
+
 .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
-  gap: 12px;              /* 👈 espacio entre tarjetas */
+  justify-content: flex-start;
+  gap: 10px;
 }
-
