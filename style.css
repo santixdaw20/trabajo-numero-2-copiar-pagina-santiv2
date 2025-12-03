@@ -238,9 +238,9 @@ body {
   }
 }
 
-/* Tarjetas más pequeñas */
+
 .col-6.col-md-4.col-lg-3 .card {
-  max-width: 140px;          /* ancho máximo de la tarjeta */
+  max-width: 140px;      
   border-radius: 8px;
   overflow: hidden;
   margin: 0 auto;
@@ -250,21 +250,21 @@ body {
 
 .col-6.col-md-4.col-lg-3 .card img {
   width: 100%;
-  height: 80px;              /* altura más pequeña */
+  height: 80px;          
   object-fit: cover;
 }
 
 .col-6.col-md-4.col-lg-3 .card-body {
-  padding: 4px;              /* menos padding */
+  padding: 4px;            
 }
 
 .col-6.col-md-4.col-lg-3 .card-text {
-  font-size: 10px;           /* texto más pequeño */
+  font-size: 10px;          
   margin-bottom: 2px;
 }
 
 .col-6.col-md-4.col-lg-3 .btn {
-  font-size: 10px;           /* botón más pequeño */
+  font-size: 10px;      
   padding: 2px 4px;
   width: 100%;
 }
