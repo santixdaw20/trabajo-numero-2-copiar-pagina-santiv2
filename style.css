@@ -238,35 +238,37 @@ body {
   }
 }
 
-.card {
-  width: 140px;           /* ancho fijo */
-  border-radius: 10px;
+/* Forzar tamaño de las tarjetas */
+.col-auto > .card {
+  width: 120px;      /* ancho fijo */
+  border-radius: 8px;
   overflow: hidden;
+  margin: 0 auto;
   background-color: #fff !important;
   box-shadow: 0 1px 5px rgba(0,0,0,0.12);
-  margin: 0 auto;
 }
 
-.card img {
-  width: 100%;
-  height: 100px;          /* altura fija */
+.col-auto > .card img {
+  width: 100%;       /* siempre ocupa el ancho de la card */
+  height: 80px;      /* altura pequeña */
   object-fit: cover;
 }
 
-.card-body {
-  padding: 6px;
+.col-auto > .card .card-body {
+  padding: 4px;
 }
 
-.card-text {
-  font-size: 11px;
-  margin-bottom: 4px;
+.col-auto > .card .card-text {
+  font-size: 10px;
+  margin-bottom: 2px;
 }
 
-.card .btn {
-  font-size: 11px;
-  padding: 3px 6px;
+.col-auto > .card .btn {
+  font-size: 10px;
+  padding: 2px 4px;
   width: 100%;
 }
+
 
 .row {
   display: flex;
