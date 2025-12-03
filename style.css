@@ -115,15 +115,14 @@ body {
 }
 
 .tarjetas {
-  display: flex;
-  flex-wrap: wrap;      
-  gap: 20px;
-  justify-content: center;
-  margin-top: 20px;
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 15px;
+    justify-content: center;
 }
 
 .cards {
-  display: flex;
+  display: flex !important;
   flex-wrap: wrap;
   padding: 5px;
   text-align: center;
@@ -138,7 +137,7 @@ body {
   font-size: 16px;
   border-radius: 8px;
   width: 448px;
-  height: px;
+  height: auto;
 
 }
 
