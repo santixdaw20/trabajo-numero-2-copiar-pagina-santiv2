@@ -115,7 +115,7 @@ body {
 }
 
 
-.card1 {
+.cards {
   padding: 5px;
   text-align: center;
   color: black;
@@ -134,11 +134,11 @@ body {
 
 }
 
-.card1:hover .text1 {
+.cards:hover .texts {
   color: #2583e6;
 }
 
-.icon1 {
+.icons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,7 +146,7 @@ body {
 
 }
 
-.text1 {
+.texts {
   text-align: center;
   display: flex;
   align-items: center;
@@ -158,12 +158,12 @@ body {
 
 }
 
-.text1:hover {
+.texts:hover {
   color: #2583e6;
 }
 
 
-.botoncard1 {
+.botoncard {
   background-color: #ffffff;
   color: #000000;
   font-weight: bold;
@@ -175,247 +175,11 @@ body {
   transition: background-color 0.1s ease;
 }
 
-.botoncard1:hover {
-  background-color: #ffffff;
-}
-
-.card2 {
-  padding: 5px;
-  text-align: center;
-  color: black;
-  font-family: Montserrat;
-  background-color: #ffffff;
-  display: inline-block;
-  align-items: center;
-  justify-content: space-around;
-  cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
-  margin: 10px;
-  font-size: 16px;
-  border-radius: 8px;
-  width: 163px;
-  height: 250px;
-
-}
-
-.card2:hover .text2 {
-  color: #2583e6;
-}
-
-.icon2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(255, 255, 255);
-
-}
-
-.text2 {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  font-size: 13px;
-  color: black;
-  transition: color 0.1s ease;
-
-}
-
-.text2:hover {
-  color: #2583e6;
-}
-
-.botoncard2 {
-  background-color: #ffffff;
-  color: #000000;
-  font-weight: bold;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 20px;
-  font-size: 18px;
-  cursor: pointer;
-  transition: background-color 0.1s ease;
-}
-
-.botoncard2:hover {
-  background-color: #ffffff;
-}
-
-.card3 {
-  padding: 5px;
-  text-align: center;
-  color: black;
-  font-family: Montserrat;
-  background-color: #ffffff;
-  display: inline-block;
-  align-items: center;
-  justify-content: space-around;
-  cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
-  margin: 10px;
-  font-size: 16px;
-  border-radius: 8px;
-  width: 163px;
-  height: 250px;
-
-}
-
-.card3:hover .text3 {
-  color: #2583e6;
-}
-
-.icon3 {
-  display: flex;
-  margin: 6.5px;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(255, 255, 255);
-
-}
-
-.text3 {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  font-size: 13px;
-  color: black;
-  transition: color 0.1s ease;
-}
-
-
-.botoncard3 {
-  background-color: #ffffff;
-  color: #000000;
-  font-weight: bold;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 20px;
-  font-size: 18px;
-  cursor: pointer;
-  transition: background-color 0.1s ease;
-}
-
-.botoncard3:hover {
+.botoncard:hover {
   background-color: #ffffff;
 }
 
 
-.card4 {
-  padding: 5px;
-  text-align: center;
-  color: rgb(0, 0, 0);
-  font-family: Montserrat;
-  background-color: #ffffff;
-  display: inline-block;
-  align-items: center;
-  justify-content: space-around;
-  cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
-  margin: 10px;
-  font-size: 16px;
-  border-radius: 8px;
-  width: 163px;
-  height: 250px;
-
-}
-
-.card4:hover .text4 {
-  color: #2583e6;
-}
-
-.icon4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(255, 255, 255);
-
-}
-
-.text4 {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  font-size: 13px;
-  color: black;
-  transition: color 0.1s ease;
-}
-
-
-.botoncard4 {
-  background-color: #ffffff;
-  color: #000000;
-  font-weight: bold;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 20px;
-  font-size: 18px;
-  cursor: pointer;
-  transition: background-color 0.1s ease;
-}
-
-.botoncard4:hover {
-  background-color: #ffffff;
-}
-
-.card5 {
-  padding: 3px;
-  text-align: center;
-  color: rgb(0, 0, 0);
-  font-family: Montserrat;
-  background-color: #ffffff;
-  display: inline-block;
-  align-items: center;
-  justify-content: space-around;
-  cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
-  margin: 10px;
-  font-size: 16px;
-  border-radius: 8px;
-  width: 163px;
-  height: 250px;
-
-}
-
-.card5:hover .text5 {
-  color: #2583e6;
-}
-
-.icon5 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(255, 255, 255);
-
-}
-
-.text5 {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  font-size: 13px;
-  color: black;
-  transition: color 0.1s ease;
-}
-
-
-.botoncard5 {
-  background-color: #ffffff;
-  color: #000000;
-  font-weight: bold;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 20px;
-  font-size: 18px;
-  cursor: pointer;
-  transition: background-color 0.1s ease;
-}
-
-.botoncard5:hover {
-  background-color: #cde2fc;
-}
 
 @media (max-width: 620px) {
   .barra {
