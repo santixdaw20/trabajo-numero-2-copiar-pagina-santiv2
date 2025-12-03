@@ -239,46 +239,32 @@ body {
 }
 
 .container .card {
-  width: 180px;
+  width: 140px;
   border-radius: 10px;
   overflow: hidden;
-  background-color: white !important; /* asegura blanco */
+  background-color: #fff !important;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.12);
+  margin: 0 auto;
 }
 
 .container .card img {
-  height: 180px;
+  width: 100%;
+  height: 100px;
   object-fit: cover;
 }
 
-.card {
-  width: 150px;           /* 👈 tamaño mucho más chico */
-  border-radius: 10px;
-  overflow: hidden;
-  background: #fff !important;
-  box-shadow: 0 1px 5px rgba(0,0,0,0.12);
-  margin: 0 auto;         /* centrar */
-}
-
-/* Imagen pequeña */
-.card img {
-  height: 120px;          /* 👈 imagen más chica */
-  object-fit: cover;
-}
-
-/* Contenido compacto */
 .card-body {
-  padding: 10px;
+  padding: 6px;
 }
 
 .card-text {
-  font-size: 12px;        /* 👈 texto más chico */
-  margin-bottom: 6px;
+  font-size: 11px;
+  margin-bottom: 4px;
 }
 
-/* Botón más chico */
 .card .btn {
-  font-size: 12px;
-  padding: 4px 8px;
+  font-size: 11px;
+  padding: 3px 6px;
   width: 100%;
 }
 
