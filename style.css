@@ -238,44 +238,33 @@ body {
   }
 }
 
-.col-auto {
-  flex: 0 0 auto !important;
-  width: auto !important;
-}
-
-.col-auto > .card {
-  width: 120px !important;           /* ancho fijo */
-  border-radius: 8px !important;
-  overflow: hidden !important;
-  margin: 0 auto !important;
+/* Tarjetas más pequeñas */
+.col-6.col-md-4.col-lg-3 .card {
+  max-width: 140px;          /* ancho máximo de la tarjeta */
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0 auto;
   background-color: #fff !important;
-  box-shadow: 0 1px 5px rgba(0,0,0,0.12) !important;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.12);
 }
 
-.col-auto > .card img {
-  width: 100% !important;
-  height: 80px !important;           /* altura fija */
-  object-fit: cover !important;
+.col-6.col-md-4.col-lg-3 .card img {
+  width: 100%;
+  height: 80px;              /* altura más pequeña */
+  object-fit: cover;
 }
 
-.col-auto > .card .card-body {
-  padding: 4px !important;
+.col-6.col-md-4.col-lg-3 .card-body {
+  padding: 4px;              /* menos padding */
 }
 
-.col-auto > .card .card-text {
-  font-size: 10px !important;
-  margin-bottom: 2px !important;
+.col-6.col-md-4.col-lg-3 .card-text {
+  font-size: 10px;           /* texto más pequeño */
+  margin-bottom: 2px;
 }
 
-.col-auto > .card .btn {
-  font-size: 10px !important;
-  padding: 2px 4px !important;
-  width: 100% !important;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 10px;              /* espacio entre tarjetas */
+.col-6.col-md-4.col-lg-3 .btn {
+  font-size: 10px;           /* botón más pequeño */
+  padding: 2px 4px;
+  width: 100%;
 }
