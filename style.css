@@ -114,15 +114,8 @@ body {
   mask-repeat: no-repeat;
 }
 
-.tarjetas {
-    display: flex; 
-    flex-wrap: wrap; 
-    gap: 15px;
-    justify-content: center;
-}
-
 .cards {
-  display: flex !important;
+  display: block !important;
   flex-wrap: wrap;
   padding: 5px;
   text-align: center;
@@ -136,7 +129,7 @@ body {
   margin: 10px;
   font-size: 16px;
   border-radius: 8px;
-  width: 448px;
+  width: 250px;
   height: auto;
 
 }
@@ -187,12 +180,13 @@ body {
 }
 
 
-.contenedor-cards {
-  display: flex;
-  flex-wrap: wrap;   /* Para que bajen si no entra el ancho */
-  gap: 20px;         /* Separación entre cards */
-  justify-content: center;
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
+
 
 @media (max-width: 620px) {
   .barra {
