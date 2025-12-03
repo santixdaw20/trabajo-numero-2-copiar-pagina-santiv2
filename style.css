@@ -114,14 +114,22 @@ body {
   mask-repeat: no-repeat;
 }
 
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;      
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
 
 .cards {
+  display: flex;
+  flex-wrap: wrap;
   padding: 5px;
   text-align: center;
   color: black;
   font-family: Montserrat;
   background-color: #ffffff;
-  display: inline-block;
   align-items: center;
   justify-content: space-around;
   cursor: pointer;
