@@ -238,6 +238,18 @@ body {
   }
 }
 
+.container .card {
+  width: 180px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white !important; /* asegura blanco */
+}
+
+.container .card img {
+  height: 180px;
+  object-fit: cover;
+}
+
 .card {
   width: 150px;           /* 👈 tamaño mucho más chico */
   border-radius: 10px;
